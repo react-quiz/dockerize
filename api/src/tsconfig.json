@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./"
+  },
+  "exclude": [
+    "node_modules",
+    "bower_components"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./typings/**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true,
+    "formatOnSave": true
+  },
+  "formatCodeOptions": {
+    "indentSize": 4,
+    "tabSize": 4,
+    "newLineCharacter": "\r\n",
+    "convertTabsToSpaces": true,
+    "insertSpaceAfterCommaDelimiter": true,
+    "insertSpaceAfterSemicolonInForStatements": true,
+    "insertSpaceBeforeAndAfterBinaryOperators": true,
+    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "placeOpenBraceOnNewLineForFunctions": false,
+    "placeOpenBraceOnNewLineForControlBlocks": false
+  },
+  "files": [
+    "./src/app/controllers/calenadar.server.controller.ts",
+    "./src/app/controllers/feed.server.controller.ts",
+    "./src/app/controllers/messageTemplate.server.controller.ts",
+    "./src/app/controllers/quickbooks.server.controller.ts",
+    "./src/app/controllers/quickbooks.server.helper.ts",
+    "./src/test/unit/quickbook.server.unit.test.ts",
+    "./typings/async/async.d.ts",
+    "./typings/bluebird/bluebird.d.ts",
+    "./typings/chai-http/chai-http.d.ts",
+    "./typings/chai/chai.d.ts",
+    "./typings/express-session/express-session.d.ts",
+    "./typings/express/express.d.ts",
+    "./typings/form-data/form-data.d.ts",
+    "./typings/google/google-auth-library.d.ts",
+    "./typings/google/google-auth.d.ts",
+    "./typings/handlebars/handlebars.d.ts",
+    "./typings/lodash/lodash.d.ts",
+    "./typings/mime/mime.d.ts",
+    "./typings/mocha/mocha.d.ts",
+    "./typings/moment-timezone/moment-timezone.d.ts",
+    "./typings/moment/moment-node.d.ts",
+    "./typings/moment/moment.d.ts",
+    "./typings/mongoose/mongoose.d.ts",
+    "./typings/node-uuid/node-uuid-base.d.ts",
+    "./typings/node-uuid/node-uuid-cjs.d.ts",
+    "./typings/node-uuid/node-uuid.d.ts",
+    "./typings/node/node.d.ts",
+    "./typings/quickbooks/quickbooks.d.ts",
+    "./typings/request/request.d.ts",
+    "./typings/serve-static/serve-static.d.ts",
+    "./typings/short/short.d.ts",
+    "./typings/sinon-chai/sinon-chai.d.ts",
+    "./typings/sinon/sinon.d.ts",
+    "./typings/tsd.d.ts"
+  ]
+}
