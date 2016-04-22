@@ -1,1 +1,0 @@
-{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "name" : "_id_", "ns" : "ideapod-site-development.activities" }, { "v" : 1, "key" : { "_actor" : 1, "_user" : 1 }, "name" : "_actor_1__user_1", "ns" : "ideapod-site-development.activities", "background" : true, "safe" : null } ] }
