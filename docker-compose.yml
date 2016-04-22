@@ -1,0 +1,17 @@
+mongodb:
+  build: ./mongodb
+  ports:
+    - "27017:27017"
+rockmongo:
+  build: ./rockmongo
+  ports:
+    - "8017:80"
+  links:
+    - "mongodb:db"
+
+api:
+  build: ./api
+  ports:
+    - "9091:9091"
+  links:
+    - "mongodb:db"
